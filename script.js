@@ -19,7 +19,7 @@ function validdataForm(){
         return;
     }
     // Check both password is same
-    if (password1 === password2){
+    if (password1.value === password2.value){
         passwordMatch = true;
         password1.style.borderColor = 'green';
         password2.style.borderColor = 'green';
